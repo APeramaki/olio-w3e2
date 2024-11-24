@@ -8,7 +8,7 @@ class Dog : public Animal
 public:
     Dog();
     ~Dog();
-    virtual void callOut();
+    void callOut() override;
 };
 
 #endif // DOG_H
